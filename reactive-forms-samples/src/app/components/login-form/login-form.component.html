@@ -1,0 +1,10 @@
+<div class="login-container">
+Nameusing value property: {{name.value}}
+Name using valueChanges: {{currentName}}
+    <form>
+        <div class="input-container">
+            <label for="name">Name :</label>
+            <input type="text" name="name" [formControl]="name">
+        </div>
+    </form>
+</div>
